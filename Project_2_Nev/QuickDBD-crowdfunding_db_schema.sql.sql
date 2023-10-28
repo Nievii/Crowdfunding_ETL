@@ -35,14 +35,14 @@ CREATE TABLE "Contact" (
 
 CREATE TABLE "Subcategory" (
     "subcategory_id" varchar   NOT NULL,
-    "subcategory" string   NOT NULL,
+    "subcategory" varchar   NOT NULL,
     CONSTRAINT "pk_Subcategory" PRIMARY KEY (
         "subcategory_id"
      )
 );
 
 CREATE TABLE "Category" (
-    "category_id" string   NOT NULL,
+    "category_id" varchar   NOT NULL,
     "category" varchar   NOT NULL,
     CONSTRAINT "pk_Category" PRIMARY KEY (
         "category_id"
